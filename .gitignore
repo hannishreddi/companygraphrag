@@ -69,3 +69,13 @@ backend/evaluation/runs/*/llm_cache.jsonl
 frontend/dist/
 backend/upload_log.jsonl
 *.bak
+
+# Local-only: unused modules and intermediate evaluation runs
+backend/chat_ollama.py
+frontend/streamlit_app.py
+backend/knowledge_graph/retrive_subgraph_context.py
+backend/supabase_/memory.py
+backend/evaluation/runs/main/
+backend/evaluation/runs/round1/
+backend/evaluation/runs/final/sample.json
+backend/evaluation/runs/final/summary.json
